@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Work Sans";
   box-sizing: border-box;
+  max-width: 1920px;
 }
 main {
   max-width: 1920px;
@@ -94,6 +95,10 @@ ul img {
   background-size: 50%;
   background-repeat: no-repeat;
   padding: 0 70px 0 100px;
+}
+.banner-content h5 i {
+  color: #FF42A5;
+  width: 2rem;
 }
 .banner img {
   width: 50%;
@@ -265,28 +270,29 @@ footer {
 }
 .terms li {
   list-style: none;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .coyright p {
-margin-top: 2rem;
-color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: normal;
-padding-bottom: 3rem;
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 3rem;
 }
 
 /* Responsive Styles for mobile */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   nav,
   nav > ul {
     flex-direction: column;
     padding-right: 0;
+    margin-top: 20px;
   }
   .nav-logo {
     padding: 0;
@@ -297,15 +303,82 @@ padding-bottom: 3rem;
   .nav-logo-img {
     padding: 0;
   }
+  nav li,
+  .nav-follow,
+  .banner {
+    margin-top: 20px;
+  }
+  .banner {
+    padding: 0 10px;
+  }
   .banner {
     flex-direction: column-reverse;
   }
   .banner img {
     width: 100%;
+    margin-bottom: 20px;
+  }
+  .banner-heading-1 {
+    font-size: 32px;
+  }
+  .banner-heading-2 {
+    font-size: 72px;
   }
   .online-game-container {
     flex-direction: column;
     padding: 0 130px;
     gap: 0;
+  }
+  .online-game p {
+    font-size: 16px;
+  }
+  .Play-Instantly-Container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .Play-Instantly-Container img {
+    padding: 20px;
+    width: 80%;
+  }
+  .play-inst-img {
+    position: absolute;
+    top: 72%;
+    right: 47%;
+  }
+  .games-type {
+    padding: 0 24px;
+  }
+  .games-type-container {
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px;
+    gap: 10px;
+  }
+  .games-type-card {
+    width: 20px;
+    height: 10px;
+  }
+  .games-type-card img {
+    width: 40px;
+  }
+  .games-type-card p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .our-story > ul,
+  .terms > ul,
+  .soicial-link {
+    padding: 0 50px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .our-story > ul,
+  .terms > ul {
+    flex-wrap: wrap;
+  }
+  .coyright p {
+    font-size: 14px;
+    padding-bottom: 2rem;
   }
 }
