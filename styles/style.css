@@ -56,15 +56,25 @@ nav a {
   font-weight: 700;
   margin-left: -220px;
 }
-.nav-button {
-  /* margin-right: 2rem; */
-  width: 262px;
+.nav-follow {
+  display: flex;
+  align-items: center;
   height: 56px;
+  width: 262px;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
-  border: none;
-  margin-bottom: 10px;
 }
+.nav-follow-text {
+  padding: 17px 25px 17px 24px;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+ul img{
+  padding: 0 15px 0 0px;
+
+}
+
 /* Banner Section Design */
 .banner {
   display: flex;
@@ -137,14 +147,14 @@ nav a {
   margin-top: 40px;
 }
 .online-game-container img {
-  width:100%;
+  width: 100%;
   /* height: 100%; */
 }
 .online-game-container h3 {
   text-align: left;
 }
 /* Play Instantly Section */
-.Play-Instantly-Container{
+.Play-Instantly-Container {
   display: flex;
   align-items: center;
 }
