@@ -56,14 +56,16 @@ nav a {
   text-decoration: none;
 }
 .nav-logo {
-  padding-left: 100px;
   width: 86.041px;
   height: 40px;
+}
+.nav-logo-img {
+  padding-left: 120px;
 }
 .nav-title {
   font-size: 2.813rem;
   font-weight: 700;
-  margin-left: -220px;
+  margin-left: -290px;
 }
 .nav-follow {
   display: flex;
@@ -167,8 +169,7 @@ ul img {
   line-height: auto;
 }
 /* Play Instantly Section */
-.play-inst-section{
-
+.play-inst-section {
 }
 
 .Play-Instantly-Container {
@@ -176,13 +177,10 @@ ul img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 70px 0 80px ;
+  padding: 0 70px 0 80px;
   position: relative;
-  border: 2px solid salmon;
   position: relative;
-
 }
-
 .Play-Instantly-Container img {
   padding-left: 80px;
 }
@@ -190,6 +188,97 @@ ul img {
   position: absolute;
   top: 55%;
   right: 40%;
+}
+
+/* Games type section style */
+.games-type {
+  margin-top: 180px;
+}
+.games-type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.games-type-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 243px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+.games-type-card p {
+  color: #0b0223;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 0.75rem;
+}
+footer {
+  background: #0b0223;
+  width: auto;
+  height: fit-content;
+}
+.footer-conatainer h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  padding-left: 20px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.our-story > ul {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
+}
+.our-story li {
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.soicial-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding: 0 350px;
+}
+
+.terms > ul {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
+}
+.terms li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.coyright p {
+margin-top: 2rem;
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 3rem;
 }
 
 /* Responsive Styles for mobile */
@@ -204,6 +293,9 @@ ul img {
   }
   .nav-title {
     margin: 0;
+  }
+  .nav-logo-img {
+    padding: 0;
   }
   .banner {
     flex-direction: column-reverse;
