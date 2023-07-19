@@ -205,6 +205,7 @@ ul img {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .games-type-card {
   display: flex;
   align-items: center;
@@ -231,7 +232,7 @@ footer {
   background: #0b0223;
   width: auto;
   height: fit-content;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .footer-conatainer h3 {
   text-align: center;
