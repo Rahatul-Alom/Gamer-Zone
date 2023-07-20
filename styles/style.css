@@ -6,7 +6,7 @@
   font-family: "Work Sans";
   box-sizing: border-box;
 }
-body{
+body {
   width: 1920px;
 }
 .text-primary {
@@ -200,7 +200,6 @@ ul img {
   text-align: right;
 }
 
-
 /* Games type section style */
 .games-type {
   margin-top: 180px;
@@ -208,7 +207,7 @@ ul img {
 .games-type-container {
   display: flex;
   justify-content: center;
-  gap:2rem;
+  gap: 2rem;
   align-items: center;
   flex-wrap: wrap;
   padding: 3rem 14.5rem;
@@ -225,7 +224,7 @@ ul img {
   padding: 20px;
   margin-bottom: 2rem;
 }
-.games-type-card:hover{
+.games-type-card:hover {
   border: 2px solid #ff42a5;
   border-radius: 50px;
   padding: 27px 10px;
@@ -303,7 +302,7 @@ footer {
 
 /* Responsive Styles for mobile */
 @media screen and (max-width: 576px) {
-  body{
+  body {
     width: auto;
   }
   nav,
@@ -343,10 +342,10 @@ footer {
     font-size: 72px;
     margin-bottom: 15px;
   }
-  .banner-content h5{
+  .banner-content h5 {
     padding: 10px 0;
   }
-  .online-game h1{
+  .online-game h1 {
     font-size: 30px;
     margin-bottom: 15px;
   }
@@ -367,10 +366,10 @@ footer {
     padding: 20px;
     width: 80%;
   }
-  .Play-Instantly-Content h1{
+  .Play-Instantly-Content h1 {
     text-align: center;
   }
-  .Play-Instantly-Content p{
+  .Play-Instantly-Content p {
     text-align: center;
   }
   .play-inst-img {
@@ -401,7 +400,7 @@ footer {
     font-size: 12px;
     font-weight: 400;
   }
-  .games-type-card:hover{
+  .games-type-card:hover {
     border: 2px solid #ff42a5;
     border-radius: 50px;
     padding: 10px 120px 10px 15px;
