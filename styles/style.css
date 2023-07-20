@@ -205,8 +205,10 @@ ul img {
 .games-type-container {
   display: flex;
   justify-content: center;
+  gap:2rem;
   align-items: center;
   flex-wrap: wrap;
+  padding: 3rem 14.5rem;
 }
 
 .games-type-card {
@@ -383,6 +385,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     margin: 0px;
     justify-content: center;
+    padding: 0;
+    gap: 0;
   }
   .games-type-card {
     width: 0px;
